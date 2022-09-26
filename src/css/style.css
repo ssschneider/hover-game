@@ -1,0 +1,72 @@
+body {
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hover {
+    background-color: #7fff00;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    color: #41295a;
+    align-self: center;
+    position: sticky;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s ease-in-out;
+    animation: slide 5s ease 0s infinite normal forwards;
+}
+
+@keyframes slide {
+	0% {
+		transform: translateX(10px);
+	}
+
+	10% {
+        transform: translate(90px, 40px);
+	}
+
+    20% {
+        transform: translate(0px, 90px);
+	}
+
+    30% {
+        transform: translate(-90px, 40px);
+	}
+
+    40% {
+        transform: translate(10px, 10px);
+	}
+
+    50% {
+        transform: translate(40px, 100px);
+	}
+
+    60% {
+        transform: translate(-60px, 20px);
+	}
+
+    70% {
+        transform: translate(60px, 80px);
+	}
+
+    80% {
+        transform: translate(-80px, 30px);
+	}
+
+    90% {
+        transform: translate(-60px, 100px);
+	}
+
+   100% {
+    transform: translateX(10px);
+    }
+}
