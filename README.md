@@ -1,23 +1,48 @@
+<h1 align="center"> Jogo do Clique </h1>
 
-# Hover Game
+<p align="center">
+Projeto estilo jogo desenvolvido para que o usuário tente clicar no botão, assim vencendo o jogo <br/>
+</p>
 
-### Projeto pessoal de um simples jogo de tentar clicar no botão
-## Sobre o jogo
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-rode-local">Rode Local</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-english-version">English Version</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
-Criado usando apenas HTML, CSS e Javascript, é um joguinho simples onde o objetivo é clicar no botão enquanto ele se movimenta.
+<p align="center">
+  <img alt="Preview" src="src/gifs/desktop.gif" width="100%">
+</p>
 
-## Tecnologias Usadas
+## 🚀 Tecnologias
 
-Para completar o desafio usei:
- - HTML
- - CSS
- - Javascript
- - Tags Semânticas
- 
-## O Projeto Rodando
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-#### Versão Desktop
-![](src/gifs/desktop.gif)
+- HTML e CSS
+- JavaScript
+- Git e Github
+- Figma
 
-#### Versão Mobile
-![](src/gifs/mobile.gif)
+## 💻 Rode Local
+Para rodar o projeto localmente, basta cumprir as seguintes etapas:
+
+1. Clone o projeto
+   ```
+        git clone https://github.com/ssschneider/hover-game.git
+   ```
+2. Abra em seu navegador
+
+## 🌎 English Version
+
+Hover Game is a game-like project where the user tries to click on the button. To do that, I've used:
+- HTML, CSS, JS, Git, Github and Figma
+
+> You can run locally following these steps:
+  1. Clone the project
+   ```
+        git clone https://github.com/ssschneider/hover-game.git
+   ```
+  2. Open on your browser
+
+---
+### Desenvolvido por Sarah Schneider 🖖
